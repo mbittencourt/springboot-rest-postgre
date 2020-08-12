@@ -13,7 +13,7 @@ curl --location --request POST 'http://localhost:8080/recuperaProdutoFiltro' \
 ---------------------------------------------------------------------
 curl --location --request POST 'http://localhost:8080/gravaProduto' \
 --header 'Content-Type: application/json' \
---data-raw '{ "descricao": "Produto Tacom" }'
+--data-raw '{ "descricao": "Produto ABC" }'
 
 ---------------------------------------------------------------------
 
